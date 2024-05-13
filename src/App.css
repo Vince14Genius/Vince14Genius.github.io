@@ -1,38 +1,226 @@
-.App {
+:root {
+  --text-color-primary: #e0e0e0;
+  --text-color-hint: #c0e0e0;
+  --text-color-accent: #80e0e0;
+  --text-color-link: #40a0ff;
+  --text-color-secondary: #c0c0c0;
+  --text-color-warning: #ff5030;
+  --background-color-primary: #141414;
+  --background-color-secondary: #202020;
+  --background-color-tertiary: #303030;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Microsoft YaHei UI", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  box-sizing: border-box;
+
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #101010;
+  background-color: var(--background-color-primary);
+  color: #e0e0e0;
+  color: var(--text-color-primary);
+  scroll-padding-top: 6rem;
+  /* for Chrome */
+}
+
+p {
+  font-size: 1.0rem;
+  line-height: 1.5;
+}
+
+a {
+  color: var(--text-color-link);
+  text-decoration: none;
+}
+
+noscript {
+  color: var(--text-color-warning);
+}
+
+th {
+  font-weight: bold;
+}
+
+/******** MARK: General Custom Classes ********/
+
+.compact-line-height {
+  line-height: 1.0;
+}
+
+.centered {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.leading {
+  text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.trailing {
+  text-align: right;
+}
+
+img.centered {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.main-width-wrapper,
+.exterior-width-wrapper {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@supports(padding: max(0px)) {
+
+  .main-width-wrapper,
+  .exterior-width-wrapper {
+    padding-left: max(1rem, env(safe-area-inset-left));
+    padding-right: max(1rem, env(safe-area-inset-right));
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main-width-wrapper {
+  max-width: 800px;
 }
 
-.App-link {
-  color: #61dafb;
+.exterior-width-wrapper {
+  max-width: 960px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.light-text {
+  font-weight: 300;
+}
+
+.link-disabled {
+  opacity: 0.5;
+}
+
+.content-img {
+  max-width: 100%;
+}
+
+.compatibility-hidden {
+  display: none;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/******** MARK: Specific Custom Classes ********/
+
+#main-content {
+  padding: 4rem 0;
+  background-color: var(--background-color-secondary);
+  overflow: hidden;
+}
+
+.bordered-section {
+  border-radius: 8px;
+  background-color: var(--background-color-tertiary);
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.quaternary-box {
+  border-radius: 8px;
+  background-color: var(--background-color-secondary);
+  padding: 0.8rem 2rem;
+}
+
+.profile-icon {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.social-media-link {
+  width: 3rem;
+  height: 3rem;
+  margin: 0.5rem;
+  display: inline-block;
+
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  -ms-transition: -ms-transform 0.3s;
+  transition: transform 0.3s;
+}
+
+.social-media-link:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.social-media-link img {
+  width: 100%;
+  display: block;
+}
+
+.branding-name-heading {
+  font-weight: normal;
+  font-size: x-large;
+  color: var(--text-color-hint);
+}
+
+.branding-name-subheading {
+  font-weight: normal;
+  font-size: large;
+  margin-bottom: 2rem;
+  color: var(--text-color-secondary);
+}
+
+/* Language Proficiency Labels */
+
+.language-inline-label-native,
+.language-inline-label-fluent,
+.language-inline-label-conversational,
+.language-inline-label-beginner {
+  display: inline-block;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--background-color-primary);
+  text-transform: uppercase;
+}
+
+.language-inline-label-native {
+  background-color: #4060ff;
+}
+
+.language-inline-label-fluent {
+  background-color: #20c080;
+}
+
+.language-inline-label-conversational {
+  background-color: #e0c000;
+}
+
+.language-inline-label-beginner {
+  background-color: #e04040;
 }
