@@ -86,7 +86,6 @@ img.centered {
 }
 
 @supports(padding: max(0px)) {
-
   .main-width-wrapper,
   .exterior-width-wrapper {
     padding-left: max(1rem, env(safe-area-inset-left));
@@ -95,11 +94,11 @@ img.centered {
 }
 
 .main-width-wrapper {
-  max-width: 800px;
+  max-width: 1200px;
 }
 
 .exterior-width-wrapper {
-  max-width: 960px;
+  max-width: 1000px;
 }
 
 .light-text {
