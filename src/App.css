@@ -133,20 +133,20 @@ img.centered {
 
 #main-content {
   padding: 4rem 0;
-  background-color: var(--background-color-secondary);
+  background-color: var(--background-color-primary);
   overflow: hidden;
 }
 
 .bordered-section {
   border-radius: 8px;
-  background-color: var(--background-color-tertiary);
+  background-color: var(--background-color-secondary);
   padding: 2rem;
   margin-top: 2rem;
 }
 
 .quaternary-box {
   border-radius: 8px;
-  background-color: var(--background-color-secondary);
+  background-color: var(--background-color-tertiary);
   padding: 0.8rem 2rem;
 }
 
