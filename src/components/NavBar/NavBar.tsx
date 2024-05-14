@@ -8,7 +8,7 @@ function NavBar() {
     <div>
       <a id="skip-to-main-button" href="#main-content">Skip to main content</a>
       <nav className="noselect">
-        <div className="exterior-width-wrapper full-height">
+        <div className="nav-aligned-width-wrapper full-height">
           <div className="nav-left">
             <Link to="/" className="nav-link light-text">
               <img className="nav-image" id="nav-profile-picture" alt="Profile" src="/images/profile.png"/>
@@ -29,7 +29,7 @@ function NavBar() {
               <span className="menu-button-bottom"></span>
             </div>
         
-            <div className="exterior-width-wrapper" id="nav-pulldown-menu">
+            <div className="nav-aligned-width-wrapper" id="nav-pulldown-menu">
               <NavBarLinks/>
             </div>
             

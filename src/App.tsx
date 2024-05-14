@@ -16,24 +16,23 @@ function App() {
           <Route index element={
             <main id="main-content" lang="en">
               <div className="main-width-wrapper">
-                <section className="text-hello">
+                <section className="text-hello nav-aligned-width-wrapper">
                   <p className="text-fancy text-hello">Welcome</p>
                   <p className="text-hello">to my portfolio.</p>
                 </section>
-                <header className="App-header">
-                  <img src={logo} className="App-logo" alt="logo" />
-                  <p>
-                    Edit <code>src/App.tsx</code> and save to reload.
-                  </p>
-                  <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Learn React
-                  </a>
-                </header>
+                <section className="text-hello nav-aligned-width-wrapper">
+                  <hr className="standard-hr"/>
+                </section>
+                <section className="text-hello nav-aligned-width-wrapper">
+                  <p className="text-fancy text-hello">Text padding</p>
+                  <p className="text-hello">Text padding</p>
+                  <p className="text-fancy text-hello">Text padding</p>
+                  <p className="text-hello">Text padding</p>
+                  <p className="text-fancy text-hello">Text padding</p>
+                  <p className="text-hello">Text padding</p>
+                  <p className="text-fancy text-hello">Text padding</p>
+                  <p className="text-hello">Text padding</p>
+                </section>
               </div>
             </main>
           } />

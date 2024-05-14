@@ -78,7 +78,7 @@ img.centered {
 }
 
 .main-width-wrapper,
-.exterior-width-wrapper {
+.nav-aligned-width-wrapper {
   width: 100%;
   margin: 0 auto 0 auto;
   padding-left: 1rem;
@@ -97,7 +97,7 @@ img.centered {
   max-width: 1200px;
 }
 
-.exterior-width-wrapper {
+.nav-aligned-width-wrapper {
   max-width: 1000px;
 }
 
@@ -127,6 +127,11 @@ img.centered {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.standard-hr {
+  margin: 1rem 0;
+  opacity: 0.5;
 }
 
 /******** MARK: Specific Custom Classes ********/
@@ -199,6 +204,7 @@ section.text-hello {
   display: block;
   width: 100%;
   margin: 0 auto 0 auto;
+  padding: 0 1rem;
   filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.4));
 }
 
@@ -208,6 +214,10 @@ p.text-hello {
   color: var(--text-color-secondary);
   line-height: 1.0;
   margin: 0;
+}
+
+section.text-hello > .standard-hr {
+  margin: 4rem 0;
 }
 
 .text-fancy {
