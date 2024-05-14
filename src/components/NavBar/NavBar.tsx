@@ -12,8 +12,9 @@ function NavBar() {
           <div className="nav-left">
             <Link to="/" className="nav-link light-text">
               <img className="nav-image" id="nav-profile-picture" alt="Profile" src="/images/profile.png"/>
-              <span className="nav-left-inner"> Vince14Genius</span>
+              <span className="nav-left-inner text-fancy"> Vince14Genius</span>
             </Link>
+            <strong>:Portfolio</strong>
           </div>
 
           <div className="nav-right" id="nav-right-menu">
