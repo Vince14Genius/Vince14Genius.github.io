@@ -5,7 +5,7 @@ import './Footer.css';
 function Footer() {
   return (
     <footer>
-      <div className="exterior-width-wrapper">
+      <div className="nav-aligned-width-wrapper">
         <hr className="compatibility-hidden"/>
         <hr className="footer-hr"/>  
         <p className="footer-normal compact-line-height">
