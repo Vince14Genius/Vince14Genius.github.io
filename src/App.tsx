@@ -24,7 +24,7 @@ function App() {
                   <p className="text-fancy text-hello">Welcome</p>
                   <p className="text-hello">to my portfolio.</p>
                 </section>
-                <section className="social-media-section nav-aligned-width-wrapper">
+                <section className="social-media-section nav-aligned-width-wrapper noselect">
                   <h2 className="compatibility-hidden">Social Media</h2>
                   <p>
                     <a className="social-media-link" href="https://github.com/Vince14Genius">
@@ -39,6 +39,50 @@ function App() {
                       <img alt="YouTube" src={youtubeLogo} />
                     </a>
                   </p>
+                </section>
+                <section className="text-hello nav-aligned-width-wrapper">
+                  <hr className="standard-hr"/>
+                </section>
+                <section className="text-hello nav-aligned-width-wrapper">
+                  <h2 className="text-fancy text-hello">Languages</h2>
+                  <table className="language-chart">
+                    <tr>
+                      <th scope="row" className="language-chart-header-column language-proficiency-native">Native</th>
+                      <td>
+                        <span className="language-tag">English</span>
+                        <span className="language-tag">中文</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row" className="language-chart-header-column language-proficiency-near-native">Near-Native</th>
+                      <td>
+                        <span className="language-tag">日本語</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row" className="language-chart-header-column language-proficiency-fluent">Fluent</th>
+                      <td>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row" className="language-chart-header-column language-proficiency-conversational">Conversational</th>
+                      <td>
+                        <span className="language-tag">Esperanto</span>
+                        <span className="language-tag">Español</span>
+                        <span className="language-tag">Français</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row" className="language-chart-header-column language-proficiency-beginner">Beginner</th>
+                      <td className="language-proficiency-secondary-tier">
+                        <span className="language-tag">Lingua Latīna</span>
+                        <span className="language-tag">한국어</span>
+                        <span className="language-tag">Ελληνικά</span>
+                        <span className="language-tag">Türkçe</span>
+                        <span className="language-tag">Bahasa Indonesia</span>
+                      </td>
+                    </tr>
+                  </table>
                 </section>
                 <section className="text-hello nav-aligned-width-wrapper">
                   <hr className="standard-hr"/>
