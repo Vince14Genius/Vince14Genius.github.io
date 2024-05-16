@@ -5,7 +5,7 @@ function NavBarLinks() {
   return (
     <ul className="nav-right nav-ul">
       <li className="nav-item">
-        <Link to="/about" className="nav-link light-text">About</Link>
+        <Link to="/about" className="nav-link light-text link-disabled">About</Link>
       </li>
       <li className="nav-item">
         <Link to="/projects" className="nav-link light-text">Projects</Link>
