@@ -188,7 +188,7 @@ img.centered {
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
   -ms-transition: -ms-transform 0.3s;
-  transition: transform 0.3s, filter 0.3s, z-index .2s 1s;
+  transition: transform 0.3s, filter 0.3s, z-index .2s 1s, background-color 0.3s;
 }
 
 @media (max-width: 799px) {
@@ -206,6 +206,7 @@ img.centered {
   -ms-transform: scale(1.1);
   transform: scale(1.1);
   filter: drop-shadow(0 0 1.6rem rgba(0, 0, 0, 0.6));
+  background-color: rgba(128, 128, 128, 0.25);
 }
 
 .social-media-link img {
