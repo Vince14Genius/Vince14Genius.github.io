@@ -45,44 +45,34 @@ function App() {
                 </section>
                 <section className="text-hello nav-aligned-width-wrapper">
                   <h2 className="text-fancy text-hello">Languages</h2>
-                  <table className="language-chart">
-                    <tr>
-                      <th scope="row" className="language-chart-header-column language-proficiency-native">Native</th>
-                      <td>
-                        <span className="language-tag">English</span>
-                        <span className="language-tag">中文</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th scope="row" className="language-chart-header-column language-proficiency-near-native">Near-Native</th>
-                      <td>
-                        <span className="language-tag">日本語</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th scope="row" className="language-chart-header-column language-proficiency-fluent">Fluent</th>
-                      <td>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th scope="row" className="language-chart-header-column language-proficiency-conversational">Conversational</th>
-                      <td>
-                        <span className="language-tag">Esperanto</span>
-                        <span className="language-tag">Español</span>
-                        <span className="language-tag">Français</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th scope="row" className="language-chart-header-column language-proficiency-beginner">Beginner</th>
-                      <td className="language-proficiency-secondary-tier">
-                        <span className="language-tag">Lingua Latīna</span>
-                        <span className="language-tag">한국어</span>
-                        <span className="language-tag">Ελληνικά</span>
-                        <span className="language-tag">Türkçe</span>
-                        <span className="language-tag">Bahasa Indonesia</span>
-                      </td>
-                    </tr>
-                  </table>
+                  <div className="language-chart">
+                    <div className="language-chart-header-column language-proficiency-native">Native</div>
+                    <div className="language-chart-data-column">
+                      <span className="language-tag">English</span>
+                      <span className="language-tag">中文</span>
+                    </div>
+                    <div className="language-chart-header-column language-proficiency-near-native">Near-Native</div>
+                    <div className="language-chart-data-column">
+                      <span className="language-tag">日本語</span>
+                    </div>
+                    <div className="language-chart-header-column language-proficiency-fluent">Fluent</div>
+                    <div className="language-chart-data-column">
+                    </div>
+                    <div className="language-chart-header-column language-proficiency-conversational">Conversational</div>
+                    <div className="language-chart-data-column">
+                      <span className="language-tag">Esperanto</span>
+                      <span className="language-tag">Español</span>
+                      <span className="language-tag">Français</span>
+                    </div>
+                    <div className="language-chart-header-column language-proficiency-beginner">Beginner</div>
+                    <div className="language-proficiency-secondary-tier language-chart-data-column">
+                      <span className="language-tag">Lingua Latīna</span>
+                      <span className="language-tag">한국어</span>
+                      <span className="language-tag">Ελληνικά</span>
+                      <span className="language-tag">Türkçe</span>
+                      <span className="language-tag">Bahasa Indonesia</span>
+                    </div>
+                  </div>
                 </section>
                 <section className="text-hello nav-aligned-width-wrapper">
                   <hr className="standard-hr"/>
