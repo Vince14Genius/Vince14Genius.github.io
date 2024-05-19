@@ -147,23 +147,24 @@ img.centered {
   position: -webkit-sticky;
   position: sticky;
   top: 3.5rem;
-  z-index: 9999;
-  padding: 0.6rem 0;
+  z-index: 9998;
+  padding: 0.7rem 0;
   border-style: solid;
   border-width: 0 0 1px 0;
   border-color: rgba(128, 128, 128, 0.2);
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.2));
 }
 
 @supports ( -webkit-backdrop-filter: none ) or ( backdrop-filter: none ) {
   .local-nav {
-      background-color: rgba(0, 0, 0, 0.5);
-      -webkit-backdrop-filter: saturate(180%) blur(20px);
-      backdrop-filter: saturate(180%) blur(20px);
+      background-color: rgba(32, 32, 32, 0.25);
+      -webkit-backdrop-filter: saturate(320%) blur(12px);
+      backdrop-filter: saturate(320%) blur(12px);
   }
 }
 
 .local-nav h1 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: normal;
 }
 
