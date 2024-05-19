@@ -32,7 +32,7 @@ nav>div {
 
 .nav-left {
   display: inline-block;
-  margin: auto auto auto 1rem;
+  margin: auto auto auto 0;
 }
 
 .nav-left-inner {
@@ -41,7 +41,6 @@ nav>div {
 
 .nav-right {
   display: inline-block;
-  margin-right: 1rem;
   margin-top: auto;
   margin-bottom: auto;
 }
