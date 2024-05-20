@@ -12,7 +12,7 @@ import instagramLogo from './images/socialmedia-instagram.svg';
 import youtubeLogo from './images/socialmedia-youtube.svg';
 
 import Index from './pages';
-import Projects from './pages/projects';
+import Projects from './pages/projects/projects';
 
 function App() {
   return (

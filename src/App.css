@@ -190,7 +190,7 @@ img.centered {
   display: inline-block;
 }
 
-.social-media-link, .language-tag {
+.social-media-link, .language-tag, .projects-grid-item {
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
   -ms-transition: -ms-transform 0.3s;

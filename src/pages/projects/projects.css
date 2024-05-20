@@ -1,0 +1,53 @@
+.project-icon {
+  max-width: 160px;
+  max-height: 160px;
+  width: 16vw;
+  height: 16vw;
+
+  display: block;
+  margin: 1rem auto;
+
+  mask-image: url(images/app-store-mask.svg);
+  mask-mode: alpha;
+}
+
+.app-store-download-badge {
+  display: flex;
+}
+
+.app-store-download-badge img {
+  margin: 10px auto;
+  height: 40px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 12px;
+}
+
+@media (max-width: 799px) {
+  .projects-grid {
+    grid-template-columns: auto auto;
+  }
+}
+
+.projects-grid-item {
+  justify-self: stretch;
+  height: 360px;
+  overflow: hidden;
+
+  padding: 0.2rem 0.7rem;
+  border-radius: 4px;
+
+  background-color: rgba(128, 128, 128, 0.1);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.2));
+}
+
+.projects-grid-item:hover {
+  background-color: rgba(128, 128, 128, 0.15);
+  filter: drop-shadow(0 0 2rem rgba(0, 0, 0, 0.4));
+  transform: scale(1.02);
+}
