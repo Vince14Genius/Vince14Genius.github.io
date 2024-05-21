@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-website-react/static/css/main.4bce0038.css",
-    "main.js": "/portfolio-website-react/static/js/main.c2818ada.js",
+    "main.js": "/portfolio-website-react/static/js/main.3cdf0266.js",
     "static/js/453.27fb6c28.chunk.js": "/portfolio-website-react/static/js/453.27fb6c28.chunk.js",
     "static/media/app-store-badge-black.svg": "/portfolio-website-react/static/media/app-store-badge-black.8c4986ee4828b47d16f5cd694ef065f2.svg",
     "static/media/socialmedia-instagram.svg": "/portfolio-website-react/static/media/socialmedia-instagram.e3ab503c19551f348b6fc7e41f01f3c7.svg",
@@ -10,11 +10,11 @@
     "static/media/socialmedia-youtube.svg": "/portfolio-website-react/static/media/socialmedia-youtube.f0cd88f3ec0f528f1e1c7408bd5a4a77.svg",
     "index.html": "/portfolio-website-react/index.html",
     "main.4bce0038.css.map": "/portfolio-website-react/static/css/main.4bce0038.css.map",
-    "main.c2818ada.js.map": "/portfolio-website-react/static/js/main.c2818ada.js.map",
+    "main.3cdf0266.js.map": "/portfolio-website-react/static/js/main.3cdf0266.js.map",
     "453.27fb6c28.chunk.js.map": "/portfolio-website-react/static/js/453.27fb6c28.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4bce0038.css",
-    "static/js/main.c2818ada.js"
+    "static/js/main.3cdf0266.js"
   ]
 }
