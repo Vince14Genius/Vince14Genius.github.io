@@ -7,10 +7,6 @@ import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 
-import githubLogo from './images/socialmedia-github.svg';
-import instagramLogo from './images/socialmedia-instagram.svg';
-import youtubeLogo from './images/socialmedia-youtube.svg';
-
 import Index from './pages';
 import Projects from './pages/projects/projects';
 

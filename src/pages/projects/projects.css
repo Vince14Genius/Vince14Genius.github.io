@@ -22,13 +22,13 @@
 
 .projects-grid {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
 }
 
 @media (max-width: 799px) {
   .projects-grid {
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -37,17 +37,94 @@
   height: 360px;
   overflow: hidden;
 
-  padding: 0.2rem 0.7rem;
+  padding: 0.4rem 0.5rem;
   border-radius: 4px;
 
   background-color: rgba(128, 128, 128, 0.1);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
   filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.2));
+
+  display: grid;
+  gap: 0.2rem;
+  grid-template-columns: 1rem auto 1rem;
+  grid-template-rows: 2.9rem auto 3.9rem 2.9rem;
 }
 
 .projects-grid-item:hover {
   background-color: rgba(128, 128, 128, 0.15);
   filter: drop-shadow(0 0 2rem rgba(0, 0, 0, 0.4));
   transform: scale(1.02);
+}
+
+.project-github-link {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  max-width: fit-content;
+  max-height: fit-content;
+  justify-self: center;
+  margin: auto 0;
+}
+
+.project-primary-link {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  justify-self: center;
+  margin-bottom: 1rem;
+}
+
+.project-item-tags {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin: 0;
+}
+
+.project-item-tags > * {
+  color: var(--text-color-secondary);
+  font-size: 0.8rem;
+  background-color: var(--background-color-tertiary);
+  padding: 0.12rem 0.4rem;
+  border-radius: 0.2rem;
+  margin-right: 0.4rem;
+  margin-bottom: 0.2rem;
+  display: inline-block;
+}
+
+.project-icon {
+  mask-image: url(images/app-store-mask.svg);
+  mask-mode: alpha;
+
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-self: center;
+  margin: auto 0;
+}
+
+.project-title-description {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  justify-self: center;
+  text-align: center;
+}
+
+.project-title-description * {
+  margin: 0;
+}
+
+.project-title-description h3 {
+  margin-bottom: 0.2rem;
+}
+
+.project-title-description p {
+  font-size: 0.8rem;
 }
