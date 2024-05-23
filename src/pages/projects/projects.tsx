@@ -62,7 +62,7 @@ function Projects() {
                   <h3>IPA Keyboard</h3>
                   <p>iOS keyboard extension for typing IPA symbols</p>
                 </div>
-                <img className="project-icon" alt="app-icon" src="./images/ipa-keyboard-icon.webp" />
+                <img className="project-icon" alt="app-icon" src="images/ipa-keyboard-icon.webp" />
                 <a className="project-primary-link" href="https://apps.apple.com/app/ipa-phonetic-keyboard/id1440241497">
                   <img alt="AppStore" src={appStoreBadge} />
                 </a>
@@ -91,7 +91,7 @@ function Projects() {
                   <h3>Check Splitter OCR</h3>
                   <p>Easy to use bill splitting app with a text-recognition (OCR) feature that reads receipts</p>
                 </div>
-                <img className="project-icon" alt="app-icon" src="./images/check-splitter-icon.webp" />
+                <img className="project-icon" alt="app-icon" src="images/check-splitter-icon.webp" />
                 <a className="project-primary-link" href="https://apps.apple.com/app/check-splitter-divide/id1586694735">
                   <img alt="AppStore" src={appStoreBadge} />
                 </a>
