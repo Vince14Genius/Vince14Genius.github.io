@@ -12,7 +12,7 @@ function Footer() {
           Contact by email at <a className="footer-link" href="mailto:vince14genius@protonmail.com">vince14genius@protonmail.com</a>.
         </p>
         <p className="footer-normal compact-line-height">
-          <Link to="/site-map" className="footer-link">Site Map</Link> ・ 
+          <Link to="/site-map" className="footer-link link-disabled">Site Map</Link> ・ 
           <Link to="/privacy-policy" className="footer-link">Privacy Policy</Link> ・ 
           <Link to="/support" className="footer-link">Support</Link></p>
         <hr className="footer-hr"/>
