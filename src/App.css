@@ -35,14 +35,35 @@ body {
   /* for Chrome */
 }
 
-p {
-  font-size: 1.0rem;
-  line-height: 1.5;
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+p, li {
+  font-size: 1.4rem;
+  line-height: 1.2;
+}
+
+li {
+  color: var(--text-color-secondary);
 }
 
 a {
   color: var(--text-color-link);
   text-decoration: none;
+}
+
+p a::after, li a::after {
+  content: "↗︎";
+}
+
+footer a::after, nav a::after, .social-media-section a::after {
+  content: none;
 }
 
 noscript {
@@ -168,6 +189,20 @@ img.centered {
   font-weight: normal;
 }
 
+.title-header {
+  opacity: 0.6;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+.title-has-header {
+  margin-top: 0;
+}
+
+.header-1 {
+  font-size: 2.5rem;
+}
+
 .social-media-section {
   margin-top: 2rem;
   padding: 0 1rem;
@@ -238,11 +273,6 @@ p.text-hello {
   font-size: 6rem;
   line-height: 1.0;
   margin: 0;
-}
-
-h2 {
-  font-size: 4rem;
-  font-weight: bolder;
 }
 
 section.text-hello > .standard-hr {

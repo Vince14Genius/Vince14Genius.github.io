@@ -10,6 +10,7 @@ import Index from './pages';
 import Projects from './pages/projects/projects';
 import Support from './pages/support';
 import PrivacyPolicy from './pages/privacy-policy';
+import PageNotFound from './pages/404';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="projects" element={<Projects />} />
           <Route path="support" element={<Support />} />
           <Route path="privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
         <Footer />
       </Router>
