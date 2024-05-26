@@ -13,7 +13,7 @@ function Projects() {
   return (
     <div>
       <header className="local-nav">
-        <h1 className="nav-aligned-width-wrapper">Projects</h1>
+        <h1 className="nav-aligned-width-wrapper">Coding Projects</h1>
       </header>
       <main id="main-content" lang="en">
         <div className="main-width-wrapper">

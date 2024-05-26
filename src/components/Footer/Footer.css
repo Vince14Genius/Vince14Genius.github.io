@@ -14,6 +14,13 @@ footer {
     font-size: 1.2rem;
 }
 
+@media (max-width: 799px) {
+    .footer-normal, .footer-light {
+        color: #606060;
+        font-size: 0.9rem;
+    }
+}
+
 .footer-link {
     text-decoration: none;
     color: #e0e0e0
