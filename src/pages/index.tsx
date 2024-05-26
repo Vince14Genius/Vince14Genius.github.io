@@ -53,10 +53,10 @@ function Index() {
           <p className="text-hello">
             and more.
           </p>
-          <div className="text-hello nav-aligned-width-wrapper">
-            <hr className="standard-hr" />
-          </div>
         </section>
+        <div className="text-hello nav-aligned-width-wrapper">
+          <hr className="standard-hr" />
+        </div>
         <section className="text-hello full-page-height">
           <h2 className="text-hello"><span className="text-fancy">Languages</span></h2>
           <div className="language-chart">
