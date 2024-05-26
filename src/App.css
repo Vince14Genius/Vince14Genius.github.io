@@ -327,7 +327,7 @@ section.full-page-height {
   font-size: 3rem;
   max-width: 100%;
   display: grid;
-  overflow: hidden;
+  overflow-wrap: break-word;
 }
 
 .language-chart-header-column {
@@ -338,6 +338,7 @@ section.full-page-height {
   padding-right: 0.8rem;
   grid-column-start: 1;
   grid-column-end: 2;
+  overflow-wrap: break-word;
 }
 
 .language-chart-data-column {
@@ -394,7 +395,7 @@ section.full-page-height {
   filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.2));
 
   line-height: 1.5;
-  overflow-wrap: normal;
+  overflow-wrap: break-word;
 }
 
 @media (max-width: 799px) {
@@ -409,10 +410,10 @@ section.full-page-height {
   background-color: rgba(128, 128, 128, 0.15);
   filter: drop-shadow(0 0 2rem rgba(0, 0, 0, 0.4));
 
-  /* -webkit-transform: scale(1.04);
+  -webkit-transform: scale(1.04);
   -moz-transform: scale(1.04);
   -ms-transform: scale(1.04);
-  transform: scale(1.04); */
+  transform: scale(1.04);
 }
 
 .language-tag:last-of-type {
