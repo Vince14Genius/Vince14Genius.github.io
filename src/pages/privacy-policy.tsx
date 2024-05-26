@@ -3,7 +3,7 @@ import React from 'react';
 function PrivacyPolicy() {
   return (
     <main id="main-content">
-      <div className="nav-aligned-width-wrapper">
+      <div className="main-width-wrapper">
         <h1 className="text-fancy">Privacy Policy</h1>
         <p>This privacy policy applies to...</p>
         <ul>
@@ -20,7 +20,6 @@ function PrivacyPolicy() {
             In fact, the projects that this privacy policy applies to do not transmit any data to any backend servers at all.
           </li>
         </ul>
-
       </div>
     </main>
   );

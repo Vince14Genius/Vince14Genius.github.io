@@ -23,7 +23,7 @@ function Support() {
 
   return (
     <main id="main-content">
-      <div className="nav-aligned-width-wrapper">
+      <div className="main-width-wrapper">
         <h1 className="text-fancy">Support/サポート/Subteno/支持/支援</h1>
         <select 
           id="select-language" 

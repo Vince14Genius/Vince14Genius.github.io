@@ -36,11 +36,11 @@ body {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 8rem;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: bolder;
 }
 
@@ -164,31 +164,6 @@ img.centered {
   overflow: hidden;
 }
 
-.local-nav {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 3.5rem;
-  z-index: 9998;
-  padding: 0.7rem 0;
-  border-style: solid;
-  border-width: 0 0 1px 0;
-  border-color: rgba(128, 128, 128, 0.2);
-  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.2));
-}
-
-@supports ( -webkit-backdrop-filter: none ) or ( backdrop-filter: none ) {
-  .local-nav {
-      background-color: rgba(32, 32, 32, 0.25);
-      -webkit-backdrop-filter: saturate(320%) blur(12px);
-      backdrop-filter: saturate(320%) blur(12px);
-  }
-}
-
-.local-nav h1 {
-  font-size: 1.2rem;
-  font-weight: normal;
-}
-
 .title-header {
   opacity: 0.6;
   font-weight: bolder;
@@ -270,7 +245,7 @@ section.text-hello {
 
 p.text-hello {
   font-weight: bold;
-  font-size: 6rem;
+  font-size: 8rem;
   line-height: 1.0;
   margin: 0;
 }

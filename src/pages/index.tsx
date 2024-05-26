@@ -8,11 +8,11 @@ function Index() {
   return (
     <main id="main-content" lang="en">
       <div className="main-width-wrapper">
-        <section className="text-hello nav-aligned-width-wrapper">
-          <p className="text-fancy text-hello">Welcome</p>
+        <section className="text-hello">
+          <p className="text-hello"><span className="text-fancy">Welcome</span></p>
           <p className="text-hello">to my portfolio.</p>
         </section>
-        <section className="social-media-section nav-aligned-width-wrapper noselect">
+        <section className="social-media-section noselect">
           <h2 className="compatibility-hidden">Social Media</h2>
           <p>
             <a className="social-media-link" href="https://github.com/Vince14Genius">
@@ -31,8 +31,8 @@ function Index() {
         <section className="text-hello nav-aligned-width-wrapper">
           <hr className="standard-hr" />
         </section>
-        <section className="text-hello nav-aligned-width-wrapper">
-          <h2 className="text-fancy text-hello">Languages</h2>
+        <section className="text-hello">
+          <h2 className="text-hello"><span className="text-fancy">Languages</span></h2>
           <div className="language-chart">
             <div className="language-chart-header-column language-proficiency-native">Native</div>
             <div className="language-chart-data-column">
@@ -65,14 +65,14 @@ function Index() {
         <section className="text-hello nav-aligned-width-wrapper">
           <hr className="standard-hr" />
         </section>
-        <section className="text-hello nav-aligned-width-wrapper">
-          <p className="text-fancy text-hello">Text padding</p>
+        <section className="text-hello">
+          <p className="text-hello"><span className="text-fancy">Text padding</span></p>
           <p className="text-hello">Text padding</p>
-          <p className="text-fancy text-hello">Text padding</p>
+          <p className="text-hello"><span className="text-fancy">Text padding</span></p>
           <p className="text-hello">Text padding</p>
-          <p className="text-fancy text-hello">Text padding</p>
+          <p className="text-hello"><span className="text-fancy">Text padding</span></p>
           <p className="text-hello">Text padding</p>
-          <p className="text-fancy text-hello">Text padding</p>
+          <p className="text-hello"><span className="text-fancy">Text padding</span></p>
           <p className="text-hello">Text padding</p>
         </section>
       </div>
