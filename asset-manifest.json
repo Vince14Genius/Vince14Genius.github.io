@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c557f98.css",
-    "main.js": "/static/js/main.6abc3b6d.js",
+    "main.css": "/static/css/main.052209be.css",
+    "main.js": "/static/js/main.ded8aeaa.js",
     "static/js/453.2d4f52d6.chunk.js": "/static/js/453.2d4f52d6.chunk.js",
     "static/media/app-store-badge-black.svg": "/static/media/app-store-badge-black.8c4986ee4828b47d16f5cd694ef065f2.svg",
     "static/media/check-splitter-icon.webp": "/static/media/check-splitter-icon.719432e391cea00878f2.webp",
@@ -12,12 +12,12 @@
     "static/media/app-store-mask.svg": "/static/media/app-store-mask.f185ddce8aa4400cf732.svg",
     "static/media/socialmedia-youtube.svg": "/static/media/socialmedia-youtube.f0cd88f3ec0f528f1e1c7408bd5a4a77.svg",
     "index.html": "/index.html",
-    "main.5c557f98.css.map": "/static/css/main.5c557f98.css.map",
-    "main.6abc3b6d.js.map": "/static/js/main.6abc3b6d.js.map",
+    "main.052209be.css.map": "/static/css/main.052209be.css.map",
+    "main.ded8aeaa.js.map": "/static/js/main.ded8aeaa.js.map",
     "453.2d4f52d6.chunk.js.map": "/static/js/453.2d4f52d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c557f98.css",
-    "static/js/main.6abc3b6d.js"
+    "static/css/main.052209be.css",
+    "static/js/main.ded8aeaa.js"
   ]
 }
