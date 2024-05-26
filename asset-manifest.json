@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.361e6dba.css",
-    "main.js": "/static/js/main.99f270ea.js",
+    "main.css": "/static/css/main.ec5814ec.css",
+    "main.js": "/static/js/main.6abc3b6d.js",
     "static/js/453.2d4f52d6.chunk.js": "/static/js/453.2d4f52d6.chunk.js",
     "static/media/app-store-badge-black.svg": "/static/media/app-store-badge-black.8c4986ee4828b47d16f5cd694ef065f2.svg",
+    "static/media/check-splitter-icon.webp": "/static/media/check-splitter-icon.719432e391cea00878f2.webp",
+    "static/media/dynamic-dungeon-icon.webp": "/static/media/dynamic-dungeon-icon.b3d1f2d1b307ee1aed0b.webp",
     "static/media/socialmedia-instagram.svg": "/static/media/socialmedia-instagram.e3ab503c19551f348b6fc7e41f01f3c7.svg",
+    "static/media/ipa-keyboard-icon.webp": "/static/media/ipa-keyboard-icon.b3d3a654ab74b9192aef.webp",
     "static/media/socialmedia-github.svg": "/static/media/socialmedia-github.a3f8742329b21fad497c8bae4e0b9a24.svg",
     "static/media/app-store-mask.svg": "/static/media/app-store-mask.f185ddce8aa4400cf732.svg",
     "static/media/socialmedia-youtube.svg": "/static/media/socialmedia-youtube.f0cd88f3ec0f528f1e1c7408bd5a4a77.svg",
     "index.html": "/index.html",
-    "main.361e6dba.css.map": "/static/css/main.361e6dba.css.map",
-    "main.99f270ea.js.map": "/static/js/main.99f270ea.js.map",
+    "main.ec5814ec.css.map": "/static/css/main.ec5814ec.css.map",
+    "main.6abc3b6d.js.map": "/static/js/main.6abc3b6d.js.map",
     "453.2d4f52d6.chunk.js.map": "/static/js/453.2d4f52d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.361e6dba.css",
-    "static/js/main.99f270ea.js"
+    "static/css/main.ec5814ec.css",
+    "static/js/main.6abc3b6d.js"
   ]
 }
