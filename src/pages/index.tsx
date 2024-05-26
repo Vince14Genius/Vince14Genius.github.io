@@ -67,7 +67,7 @@ function Index() {
             <div className="language-chart-data-column">
               <span className="language-tag">日本語</span>
             </div>
-            <div className="language-chart-header-column language-proficiency-fluent">Fluent</div>
+            <div className="language-chart-header-column language-proficiency-fluent">Advanced</div>
             <div className="language-chart-data-column">
             </div>
             <div className="language-chart-header-column language-proficiency-conversational">Conversational</div>
