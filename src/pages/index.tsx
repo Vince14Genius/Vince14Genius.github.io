@@ -28,9 +28,33 @@ function Index() {
             </a>
           </p>
         </section>
-        <section className="text-hello nav-aligned-width-wrapper">
+        <div className="text-hello nav-aligned-width-wrapper">
           <hr className="standard-hr" />
+        </div>
+        <section className="text-hello">
+          <h2 className="compatibility-hidden">Summary</h2>
+          <p className="text-hello">
+            <span className="text-fancy">
+              Code.
+            </span>
+          </p>
+          <p className="text-hello">
+            <span className="text-fancy">
+              Design.
+            </span>
+          </p>
+          <p className="text-hello">
+            <span className="text-fancy">
+              Linguistics.
+            </span>
+          </p>
+          <p className="text-hello">
+            and more.
+          </p>
         </section>
+        <div className="text-hello nav-aligned-width-wrapper">
+          <hr className="standard-hr" />
+        </div>
         <section className="text-hello">
           <h2 className="text-hello"><span className="text-fancy">Languages</span></h2>
           <div className="language-chart">
@@ -61,19 +85,6 @@ function Index() {
               <span className="language-tag">Bahasa Indonesia</span>
             </div>
           </div>
-        </section>
-        <section className="text-hello nav-aligned-width-wrapper">
-          <hr className="standard-hr" />
-        </section>
-        <section className="text-hello">
-          <p className="text-hello"><span className="text-fancy">Text padding</span></p>
-          <p className="text-hello">Text padding</p>
-          <p className="text-hello"><span className="text-fancy">Text padding</span></p>
-          <p className="text-hello">Text padding</p>
-          <p className="text-hello"><span className="text-fancy">Text padding</span></p>
-          <p className="text-hello">Text padding</p>
-          <p className="text-hello"><span className="text-fancy">Text padding</span></p>
-          <p className="text-hello">Text padding</p>
         </section>
       </div>
     </main>
