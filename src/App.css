@@ -36,7 +36,8 @@ body {
 }
 
 h1 {
-  font-size: 8rem;
+  font-size: 6rem;
+  font-weight: bold;
 }
 
 h2 {

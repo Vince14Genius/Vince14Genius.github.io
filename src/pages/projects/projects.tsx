@@ -5,6 +5,10 @@ import ProjectsItem from './ProjectsItem';
 import githubLogo from '../../images/socialmedia-github.svg';
 import appStoreBadge from '../../images/app-store-badge-black.svg';
 
+import ipaKeyboardIcon from './images/ipa-keyboard-icon.webp';
+import checkSplitterIcon from './images/check-splitter-icon.webp';
+import dynamicDungeonIcon from './images/dynamic-dungeon-icon.webp';
+
 function Projects() {
   return (
     <div>
@@ -21,6 +25,12 @@ function Projects() {
                   <h3><span className="text-fancy">Vince14Genius</span>:Portfolio</h3>
                   <p>This website.</p>
                 </div>
+                <a className="project-primary-link" href="/">
+                  <p>Home page</p>
+                </a>
+                <a className="project-github-link" href="https://github.com/Vince14Genius/vince14genius.github.io">
+                  <img alt="GitHub" src={githubLogo} />
+                </a>
                 <p className="project-item-tags">
                   <span>HTML/CSS</span>
                   <span>JavaScript</span>
@@ -62,7 +72,7 @@ function Projects() {
                   <h3>IPA Keyboard</h3>
                   <p>iOS keyboard extension for typing IPA symbols</p>
                 </div>
-                <img className="project-icon" alt="app-icon" src="images/ipa-keyboard-icon.webp" />
+                <img className="project-icon" alt="app-icon" src={ipaKeyboardIcon} />
                 <a className="project-primary-link" href="https://apps.apple.com/app/ipa-phonetic-keyboard/id1440241497">
                   <img alt="AppStore" src={appStoreBadge} />
                 </a>
@@ -91,7 +101,7 @@ function Projects() {
                   <h3>Check Splitter OCR</h3>
                   <p>Easy to use bill splitting app with a text-recognition (OCR) feature that reads receipts</p>
                 </div>
-                <img className="project-icon" alt="app-icon" src="images/check-splitter-icon.webp" />
+                <img className="project-icon" alt="app-icon" src={checkSplitterIcon} />
                 <a className="project-primary-link" href="https://apps.apple.com/app/check-splitter-divide/id1586694735">
                   <img alt="AppStore" src={appStoreBadge} />
                 </a>
@@ -108,6 +118,25 @@ function Projects() {
                 </p>
               </section>
               <section className="projects-grid-item">
+                <div className="project-title-description">
+                  <h3>Dynamic Dungeon</h3>
+                  <p>A 2D scrolling maze game where you survive and collect points.</p>
+                </div>
+                <img className="project-icon" alt="app-icon" src={dynamicDungeonIcon} />
+                <a className="project-primary-link" href="https://apps.apple.com/app/dynamic-dungeon/id6449023174">
+                  <img alt="AppStore" src={appStoreBadge} />
+                </a>
+                <a className="project-github-link" href="https://github.com/Vince14Genius/Dynamic-Dungeon">
+                  <img alt="GitHub" src={githubLogo} />
+                </a>
+                <p className="project-item-tags">
+                  <span>WWDC</span>
+                  <span>WWDC 17</span>
+                  <span>Swift</span>
+                  <span>iOS</span>
+                  <span>macOS</span>
+                  <span>SpriteKit</span>
+                </p>
               </section>
               <section className="projects-grid-item">
               </section>

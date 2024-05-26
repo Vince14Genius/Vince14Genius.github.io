@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
 import NavBarLinks from './components/NavBarLinks/NavBarLinks';
+import navImage from '../../images/profile-thumbnail.jpg';
 
 function NavBar() {
   return (
@@ -11,7 +12,7 @@ function NavBar() {
         <div className="nav-aligned-width-wrapper full-height">
           <div className="nav-left">
             <Link to="/" className="nav-link light-text">
-              <img className="nav-image" id="nav-profile-picture" alt="Profile" src="/images/profile.png"/>
+              <img className="nav-image" id="nav-profile-picture" alt="Profile" src={navImage}/>
               <span className="nav-left-inner text-fancy"> Vince14Genius</span>
             </Link>
             <strong>:Portfolio</strong>
