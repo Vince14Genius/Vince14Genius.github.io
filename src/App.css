@@ -140,6 +140,24 @@ th {
   }
 }
 
+@media (max-width: 799px) {
+
+  .main-width-wrapper,
+  .nav-aligned-width-wrapper {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  @supports(padding: max(0px)) {
+
+    .main-width-wrapper,
+    .nav-aligned-width-wrapper {
+      padding-left: max(0.5rem, env(safe-area-inset-left));
+      padding-right: max(0.5rem, env(safe-area-inset-right));
+    }
+  }
+}
+
 .main-width-wrapper {
   max-width: 1200px;
 }
