@@ -8,6 +8,10 @@
   --background-color-primary: #141414;
   --background-color-secondary: #202020;
   --background-color-tertiary: #303030;
+
+  --standard-hr-margin: 1rem;
+  --hello-hr-margin: 4rem;
+  --hello-hr-margin-mobile: 2.67rem;
 }
 
 html {
@@ -174,7 +178,7 @@ th {
 }
 
 .standard-hr {
-  margin: 1rem 0;
+  margin: var(--standard-hr-margin) 0;
   opacity: 0.5;
 }
 
@@ -275,7 +279,7 @@ p.text-hello {
 }
 
 .text-hello>.standard-hr {
-  margin: 4rem 0;
+  margin: var(--hello-hr-margin) 0;
 }
 
 @media (max-width: 799px) {
@@ -288,7 +292,7 @@ p.text-hello {
   }
 
   .text-hello>.standard-hr {
-    margin: 2.67rem 0;
+    margin: var(--hello-hr-margin-mobile) 0;
   }
 }
 
@@ -301,6 +305,13 @@ p.text-hello {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+}
+
+section.full-page-height {
+  min-height: calc(100vh - var(--nav-bar-height) - 2 * var(--hello-hr-margin));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* Language Proficiency Labels */

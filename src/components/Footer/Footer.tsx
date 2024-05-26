@@ -7,7 +7,6 @@ function Footer() {
     <footer>
       <div className="nav-aligned-width-wrapper">
         <hr className="compatibility-hidden"/>
-        <hr className="footer-hr"/>  
         <p className="footer-normal compact-line-height">
           Contact by email at <a className="footer-link" href="mailto:vince14genius@protonmail.com">vince14genius@protonmail.com</a>.
         </p>
