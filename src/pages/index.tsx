@@ -14,7 +14,7 @@ function Index() {
         </section>
         <section className="social-media-section noselect">
           <h2 className="compatibility-hidden">Social Media</h2>
-          <p>
+          <p className="centered-block">
             <a className="social-media-link" href="https://github.com/Vince14Genius">
               <img alt="GitHub" src={githubLogo} />
             </a>
