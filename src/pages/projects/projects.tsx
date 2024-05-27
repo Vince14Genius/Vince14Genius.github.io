@@ -25,16 +25,23 @@ function Projects() {
                   <h3><span className="text-fancy">Vince14Genius</span>:Portfolio</h3>
                   <p>This website.</p>
                 </div>
-                <a className="project-primary-link" href="/">
+                <div className="project-icon placeholder-icon" />
+                <a className="project-primary-link project-link-button" href="/">
                   <p>Home page</p>
                 </a>
                 <a className="project-github-link" href="https://github.com/Vince14Genius/vince14genius.github.io">
                   <img alt="GitHub" src={githubLogo} />
                 </a>
+                <p className="project-item-info-bar">
+                  <span className="highlighted-info-tags">
+                    <span>Web</span>
+                  </span>
+                  <span className="language-info-tags">
+                    <span>TypeScript</span>
+                    <span>HTML/CSS</span>
+                  </span>
+                </p>
                 <p className="project-item-tags">
-                  <span>HTML/CSS</span>
-                  <span>JavaScript</span>
-                  <span>Web</span>
                   <span>React</span>
                   <span>npm</span>
                 </p>
@@ -72,15 +79,22 @@ function Projects() {
                   <h3>IPA Keyboard</h3>
                   <p>iOS keyboard extension for typing IPA symbols</p>
                 </div>
-                <img className="project-icon" alt="app-icon" src={ipaKeyboardIcon} />
-                <a className="project-primary-link" href="https://apps.apple.com/app/ipa-phonetic-keyboard/id1440241497">
+                <img className="project-icon ios-app-icon" alt="app-icon" src={ipaKeyboardIcon} />
+                <a className="project-primary-link app-store-download-badge" href="https://apps.apple.com/app/ipa-phonetic-keyboard/id1440241497">
                   <img alt="AppStore" src={appStoreBadge} />
                 </a>
                 <a className="project-github-link" href="https://github.com/Vince14Genius/IPA-Keyboard-iOS">
                   <img alt="GitHub" src={githubLogo} />
                 </a>
+                <p className="project-item-info-bar">
+                  <span className="highlighted-info-tags">
+                    <span>App</span>
+                  </span>
+                  <span className="language-info-tags">
+                    <span>Swift</span>
+                  </span>
+                </p>
                 <p className="project-item-tags">
-                  <span>Swift</span>
                   <span>iOS</span>
                   <span>UIKit</span>
                   <span>SwiftUI</span>
@@ -99,17 +113,24 @@ function Projects() {
               <section className="projects-grid-item">
                 <div className="project-title-description">
                   <h3>Check Splitter OCR</h3>
-                  <p>Easy to use bill splitting app with a text-recognition (OCR) feature that reads receipts</p>
+                  <p>Bill splitting app using text-recognition (OCR) to read receipts</p>
                 </div>
-                <img className="project-icon" alt="app-icon" src={checkSplitterIcon} />
-                <a className="project-primary-link" href="https://apps.apple.com/app/check-splitter-divide/id1586694735">
+                <img className="project-icon ios-app-icon" alt="app-icon" src={checkSplitterIcon} />
+                <a className="project-primary-link app-store-download-badge" href="https://apps.apple.com/app/check-splitter-divide/id1586694735">
                   <img alt="AppStore" src={appStoreBadge} />
                 </a>
                 <a className="project-github-link" href="https://github.com/Vince14Genius/Check-Splitter-OCR">
                   <img alt="GitHub" src={githubLogo} />
                 </a>
+                <p className="project-item-info-bar">
+                  <span className="highlighted-info-tags">
+                    <span>App</span>
+                  </span>
+                  <span className="language-info-tags">
+                    <span>Swift</span>
+                  </span>
+                </p>
                 <p className="project-item-tags">
-                  <span>Swift</span>
                   <span>iOS</span>
                   <span>macOS</span>
                   <span>SwiftUI</span>
@@ -120,22 +141,29 @@ function Projects() {
               <section className="projects-grid-item">
                 <div className="project-title-description">
                   <h3>Dynamic Dungeon</h3>
-                  <p>A 2D scrolling maze game where you survive and collect points.</p>
+                  <p>2D scrolling maze game where you survive and collect points</p>
                 </div>
-                <img className="project-icon" alt="app-icon" src={dynamicDungeonIcon} />
-                <a className="project-primary-link" href="https://apps.apple.com/app/dynamic-dungeon/id6449023174">
+                <img className="project-icon ios-app-icon" alt="app-icon" src={dynamicDungeonIcon} />
+                <a className="project-primary-link app-store-download-badge" href="https://apps.apple.com/app/dynamic-dungeon/id6449023174">
                   <img alt="AppStore" src={appStoreBadge} />
                 </a>
                 <a className="project-github-link" href="https://github.com/Vince14Genius/Dynamic-Dungeon">
                   <img alt="GitHub" src={githubLogo} />
                 </a>
+                <p className="project-item-info-bar">
+                  <span className="highlighted-info-tags">
+                    <span>Game</span>
+                    <span>WWDC 17</span>
+                  </span>
+                  <span className="language-info-tags">
+                    <span>Swift</span>
+                  </span>
+                </p>
                 <p className="project-item-tags">
-                  <span>WWDC</span>
-                  <span>WWDC 17</span>
-                  <span>Swift</span>
                   <span>iOS</span>
                   <span>macOS</span>
                   <span>SpriteKit</span>
+                  <span>WWDC</span>
                 </p>
               </section>
               <section className="projects-grid-item">

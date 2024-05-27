@@ -9,7 +9,7 @@ function ProjectsItem() {
       <p className="project-item-tags">
         <span>Open Source</span>
       </p>
-      <a className="project-primary-link">
+      <a className="project-primary-link app-store-download-badge">
         <img alt="AppStore" src={appStoreBadge} />
       </a>
       <div className="project-title-description">
