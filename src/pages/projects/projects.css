@@ -7,7 +7,8 @@
 
 .placeholder-icon {
   background: linear-gradient(20deg, #205080, #805050);
-  corner-radius:
+  border-radius: 6px;
+  opacity: 0.5;
 }
 
 .ios-app-icon {
@@ -32,7 +33,7 @@
   min-height: 100px;
   overflow: hidden;
 
-  padding: 0.8rem 1.0rem;
+  padding: 0.6rem 1.0rem 0.8rem 1.0rem;
   border-radius: 4px;
 
   background-color: rgba(128, 128, 128, 0.1);
@@ -48,7 +49,7 @@
   overflow: visible;
   gap: 0.8rem;
   grid-template-columns: var(--icon-size) auto min-content min-content;
-  grid-template-rows: max-content var(--icon-size) min-content min-content;
+  grid-template-rows: max-content var(--icon-size) auto min-content;
 }
 
 .projects-grid-item:hover {
@@ -105,7 +106,6 @@
   grid-column-start: 1;
   grid-column-end: 5;
   margin: 0;
-
 }
 
 .project-item-tags {
@@ -122,20 +122,19 @@
 
 .project-item-tags>*,
 .highlighted-info-tags>*,
-.language-info-tags>* {
+.platform-info-tags>* {
   color: var(--text-color-secondary);
   font-size: 0.8rem;
   background-color: var(--background-color-tertiary);
   padding: 0.12rem 0.4rem;
   border-radius: 0.2rem;
   margin-right: 0.4rem;
-  margin-bottom: 0.2rem;
   display: inline-block;
 }
 
 .project-item-tags>*:last-child,
 .highlighted-info-tags>*:last-child,
-.language-info-tags>*:last-child {
+.platform-info-tags>*:last-child {
   margin-right: 0;
 }
 
@@ -145,10 +144,18 @@
   font-weight: bolder;
 }
 
-.project-icon {
-  mask-image: url(images/app-store-mask.svg);
-  mask-mode: alpha;
+.project-type-header {
+  padding: 0;
+  border: none;
+  font-weight: normal;
+  margin-right: 0.8rem;
+  text-transform: uppercase;
 
+  color: var(--text-color-tertiary);
+  background: none;
+}
+
+.project-icon {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
