@@ -9,6 +9,9 @@ import ipaKeyboardIcon from './images/ipa-keyboard-icon.webp';
 import checkSplitterIcon from './images/check-splitter-icon.webp';
 import dynamicDungeonIcon from './images/dynamic-dungeon-icon.webp';
 import tilesOfArenasIcon from './images/tiles-of-arenas-icon.webp';
+import finderZenIcon from './images/finder-zen-icon.png';
+import finderZen2Icon from './images/finder-zen-2-icon.png';
+import appFlightIcon from './images/app-flight-icon.png';
 
 function Projects() {
   return (
@@ -28,7 +31,7 @@ function Projects() {
                 </div>
                 <div className="project-icon placeholder-icon" />
                 <a className="project-primary-link project-link-button" href="/">
-                  <p>Home page</p>
+                  <p>Home</p>
                 </a>
                 <a className="project-github-link" href="https://github.com/Vince14Genius/vince14genius.github.io">
                   <img alt="GitHub" src={githubLogo} />
@@ -124,9 +127,17 @@ function Projects() {
                 <div className="project-icon placeholder-icon" />
               </section>
               <section className="projects-grid-item">
+                <div className="project-title-description">
+                  <h3>???</h3>
+                  <p>???</p>
+                </div>
                 <div className="project-icon placeholder-icon" />
               </section>
               <section className="projects-grid-item">
+                <div className="project-title-description">
+                  <h3>???</h3>
+                  <p>???</p>
+                </div>
                 <div className="project-icon placeholder-icon" />
               </section>
             </div>
@@ -187,6 +198,7 @@ function Projects() {
                   <span>SwiftUI</span>
                   <span>Game Design</span>
                   <span>JavaScript</span>
+                  <span>WWDC Accepted</span>
                 </p>
                 <a className="project-github-link" href="https://github.com/Vince14Genius/Tiles-of-Arenas-SwiftUI">
                   <img alt="GitHub" src={githubLogo} />
@@ -195,7 +207,7 @@ function Projects() {
               <section className="projects-grid-item">
                 <div className="project-title-description">
                   <h3>jsa-lt-qr-code-generator</h3>
-                  <p>-</p>
+                  <p>Used for UCSD JSA's Language Table event 2022-2023</p>
                 </div>
                 <div className="project-icon placeholder-icon" />
                 <a className="project-primary-link project-link-button" href="https://vince14genius.github.io/jsa-lt-qr-code-generator/">
@@ -204,6 +216,20 @@ function Projects() {
                 <a className="project-github-link" href="https://github.com/Vince14Genius/jsa-lt-qr-code-generator">
                   <img alt="GitHub" src={githubLogo} />
                 </a>
+                <p className="project-item-info-bar">
+                  <span className="highlighted-info-tags">
+                    <span className="project-type-header">Web Tool</span>
+                  </span>
+                  <span className="platform-info-tags">
+                    <span>Web</span>
+                  </span>
+                </p>
+                <p className="project-item-tags">
+                  <span>HTML/CSS</span>
+                  <span>JavaScript</span>
+                  <span>GitHub Copilot</span>
+                  <span>AI pair-programming</span>
+                </p>
               </section>
               <section className="projects-grid-item">
                 <div className="project-title-description">
@@ -250,6 +276,59 @@ function Projects() {
                   <span>Visual Design</span>
                   <span>VFX Design</span>
                   <span>Computer Simulation</span>
+                  <span>WWDC Accepted</span>
+                </p>
+              </section>
+              <section className="projects-grid-item">
+                <div className="project-title-description">
+                  <h3>Finder Zen AR</h3>
+                  <p>-</p>
+                </div>
+                <div className="project-icon placeholder-icon" />
+                <a className="project-github-link" href="https://github.com/Vince14Genius/WWDC19-Finder-Zen-AR">
+                  <img alt="GitHub" src={githubLogo} />
+                </a>
+                <p className="project-item-info-bar">
+                  <span className="highlighted-info-tags">
+                    <span className="project-type-header">Game</span>
+                  </span>
+                  <span className="platform-info-tags">
+                    <span>Swift Playgrounds</span>
+                  </span>
+                </p>
+                <p className="project-item-tags">
+                  <span>Swift</span>
+                  <span>ARKit</span>
+                  <span>SceneKit</span>
+                  <span>Game Design</span>
+                  <span>Augmented Reality</span>
+                  <span>WWDC Rejected</span>
+                </p>
+              </section>
+              <section className="projects-grid-item">
+                <div className="project-title-description">
+                  <h3>Simple 3D Renderer using p5.js</h3>
+                  <p>Before I learned linear algebra & graphics programming</p>
+                </div>
+                <div className="project-icon placeholder-icon" />
+                <a className="project-primary-link project-link-button" href="https://vince14genius.github.io/Simple-3D-Renderer-using-p5.js/">
+                  <p>Open</p>
+                </a>
+                <a className="project-github-link" href="https://github.com/Vince14Genius/Simple-3D-Renderer-using-p5.js">
+                  <img alt="GitHub" src={githubLogo} />
+                </a>
+                <p className="project-item-info-bar">
+                  <span className="highlighted-info-tags">
+                    <span className="project-type-header">Experience</span>
+                  </span>
+                  <span className="platform-info-tags">
+                    <span>Web</span>
+                  </span>
+                </p>
+                <p className="project-item-tags">
+                  <span>JavaScript</span>
+                  <span>p5.js</span>
+                  <span>Vector Mathematics</span>
                 </p>
               </section>
               <section className="projects-grid-item">
@@ -278,42 +357,77 @@ function Projects() {
                   <span>Swift</span>
                   <span>SpriteKit</span>
                   <span>Game Design</span>
+                  <span>WWDC Accepted</span>
                 </p>
               </section>
               <section className="projects-grid-item">
                 <div className="project-title-description">
-                  <h3>Finder Zen AR</h3>
-                  <p>-</p>
-                </div>
-                <div className="project-icon placeholder-icon" />
-              </section>
-              <section className="projects-grid-item">
-                <div className="project-title-description">
-                  <h3>FlashcardsKit 2</h3>
-                  <p>-</p>
-                </div>
-                <div className="project-icon placeholder-icon" />
-              </section>
-              <section className="projects-grid-item">
-                <div className="project-title-description">
                   <h3>App Flight</h3>
-                  <p>-</p>
+                  <p>Dodge obstacles and collect AirDrops</p>
                 </div>
-                <div className="project-icon placeholder-icon" />
+                <img className="project-icon" alt="app-icon" src={appFlightIcon} />
+                <a className="project-github-link" href="https://github.com/Vince14Genius/App-Flight">
+                  <img alt="GitHub" src={githubLogo} />
+                </a>
+                <p className="project-item-info-bar">
+                  <span className="highlighted-info-tags">
+                    <span className="project-type-header">Game</span>
+                  </span>
+                  <span className="platform-info-tags">
+                    <span>macOS</span>
+                  </span>
+                </p>
+                <p className="project-item-tags">
+                  <span>Swift</span>
+                  <span>SpriteKit</span>
+                  <span>Game Design</span>
+                </p>
               </section>
               <section className="projects-grid-item">
                 <div className="project-title-description">
                   <h3>Finder Zen 2</h3>
-                  <p>-</p>
+                  <p>4 mini games in 1 story line</p>
                 </div>
-                <div className="project-icon placeholder-icon" />
+                <img className="project-icon" alt="app-icon" src={finderZen2Icon} />
+                <a className="project-github-link" href="https://github.com/Vince14Genius/Finder-Zen-2">
+                  <img alt="GitHub" src={githubLogo} />
+                </a>
+                <p className="project-item-info-bar">
+                  <span className="highlighted-info-tags">
+                    <span className="project-type-header">Game</span>
+                  </span>
+                  <span className="platform-info-tags">
+                    <span>macOS</span>
+                  </span>
+                </p>
+                <p className="project-item-tags">
+                  <span>Swift</span>
+                  <span>SpriteKit</span>
+                  <span>Game Design</span>
+                </p>
               </section>
               <section className="projects-grid-item">
                 <div className="project-title-description">
                   <h3>Finder Zen</h3>
-                  <p>-</p>
+                  <p>poppin colorful bubbles</p>
                 </div>
-                <div className="project-icon placeholder-icon" />
+                <img className="project-icon" alt="app-icon" src={finderZenIcon} />
+                <a className="project-github-link" href="https://github.com/Vince14Genius/Finder-Zen">
+                  <img alt="GitHub" src={githubLogo} />
+                </a>
+                <p className="project-item-info-bar">
+                  <span className="highlighted-info-tags">
+                    <span className="project-type-header">Game</span>
+                  </span>
+                  <span className="platform-info-tags">
+                    <span>macOS</span>
+                  </span>
+                </p>
+                <p className="project-item-tags">
+                  <span>Swift</span>
+                  <span>SpriteKit</span>
+                  <span>Game Design</span>
+                </p>
               </section>
             </div>
           </section>
