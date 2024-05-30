@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.50999130.css",
-    "main.js": "/static/js/main.5fcccacc.js",
+    "main.js": "/static/js/main.fcd2f9ec.js",
     "static/js/453.2d4f52d6.chunk.js": "/static/js/453.2d4f52d6.chunk.js",
     "static/media/tiles-of-arenas-icon.webp": "/static/media/tiles-of-arenas-icon.b9de8d0d6ba7c1297b63.webp",
     "static/media/app-store-badge-black.svg": "/static/media/app-store-badge-black.8c4986ee4828b47d16f5cd694ef065f2.svg",
@@ -14,11 +14,11 @@
     "static/media/socialmedia-youtube.svg": "/static/media/socialmedia-youtube.f0cd88f3ec0f528f1e1c7408bd5a4a77.svg",
     "index.html": "/index.html",
     "main.50999130.css.map": "/static/css/main.50999130.css.map",
-    "main.5fcccacc.js.map": "/static/js/main.5fcccacc.js.map",
+    "main.fcd2f9ec.js.map": "/static/js/main.fcd2f9ec.js.map",
     "453.2d4f52d6.chunk.js.map": "/static/js/453.2d4f52d6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.50999130.css",
-    "static/js/main.5fcccacc.js"
+    "static/js/main.fcd2f9ec.js"
   ]
 }
