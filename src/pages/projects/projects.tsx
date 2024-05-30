@@ -36,6 +36,7 @@ function Projects() {
                 <p className="project-item-info-bar">
                   <span className="highlighted-info-tags">
                     <span className="project-type-header">Website</span>
+                    <span>New Redesign!</span>
                   </span>
                   <span className="platform-info-tags">
                     <span>Web</span>
@@ -46,6 +47,30 @@ function Projects() {
                   <span>TypeScript</span>
                   <span>React</span>
                   <span>npm</span>
+                </p>
+              </section>
+              <section className="projects-grid-item">
+                <div className="project-title-description">
+                  <h3>Random Picker</h3>
+                  <p>Has a cool scrolling wheel animation</p>
+                </div>
+                <div className="project-icon placeholder-icon" />
+                <a className="project-github-link" href="https://github.com/Vince14Genius/Random-Picker-SwiftUI">
+                  <img alt="GitHub" src={githubLogo} />
+                </a>
+                <p className="project-item-info-bar">
+                  <span className="highlighted-info-tags">
+                    <span className="project-type-header">App</span>
+                    <span>New Feature!</span>
+                  </span>
+                  <span className="platform-info-tags">
+                    <span>iOS</span>
+                    <span>macOS</span>
+                  </span>
+                </p>
+                <p className="project-item-tags">
+                  <span>Swift</span>
+                  <span>SwiftUI</span>
                 </p>
               </section>
             </div>
@@ -169,6 +194,19 @@ function Projects() {
               </section>
               <section className="projects-grid-item">
                 <div className="project-title-description">
+                  <h3>jsa-lt-qr-code-generator</h3>
+                  <p>-</p>
+                </div>
+                <div className="project-icon placeholder-icon" />
+                <a className="project-primary-link project-link-button" href="https://vince14genius.github.io/jsa-lt-qr-code-generator/">
+                  <p>Open</p>
+                </a>
+                <a className="project-github-link" href="https://github.com/Vince14Genius/jsa-lt-qr-code-generator">
+                  <img alt="GitHub" src={githubLogo} />
+                </a>
+              </section>
+              <section className="projects-grid-item">
+                <div className="project-title-description">
                   <h3>NeoPixel Wotagei Glowsticks</h3>
                   <p>NeoPixelで出来たヲタ芸用のペンライト</p>
                 </div>
@@ -243,21 +281,38 @@ function Projects() {
                 </p>
               </section>
               <section className="projects-grid-item">
+                <div className="project-title-description">
+                  <h3>Finder Zen AR</h3>
+                  <p>-</p>
+                </div>
                 <div className="project-icon placeholder-icon" />
               </section>
               <section className="projects-grid-item">
+                <div className="project-title-description">
+                  <h3>FlashcardsKit 2</h3>
+                  <p>-</p>
+                </div>
                 <div className="project-icon placeholder-icon" />
               </section>
               <section className="projects-grid-item">
+                <div className="project-title-description">
+                  <h3>App Flight</h3>
+                  <p>-</p>
+                </div>
                 <div className="project-icon placeholder-icon" />
               </section>
               <section className="projects-grid-item">
+                <div className="project-title-description">
+                  <h3>Finder Zen 2</h3>
+                  <p>-</p>
+                </div>
                 <div className="project-icon placeholder-icon" />
               </section>
               <section className="projects-grid-item">
-                <div className="project-icon placeholder-icon" />
-              </section>
-              <section className="projects-grid-item">
+                <div className="project-title-description">
+                  <h3>Finder Zen</h3>
+                  <p>-</p>
+                </div>
                 <div className="project-icon placeholder-icon" />
               </section>
             </div>
