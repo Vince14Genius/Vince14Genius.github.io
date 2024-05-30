@@ -4,6 +4,7 @@ import ProjectsItem from './ProjectsItem';
 
 import githubLogo from '../../images/socialmedia-github.svg';
 import appStoreBadge from '../../images/app-store-badge-black.svg';
+import profileIcon from '../../images/profile-thumbnail.jpg';
 
 import ipaKeyboardIcon from './images/ipa-keyboard-icon.webp';
 import checkSplitterIcon from './images/check-splitter-icon.webp';
@@ -12,6 +13,8 @@ import tilesOfArenasIcon from './images/tiles-of-arenas-icon.webp';
 import finderZenIcon from './images/finder-zen-icon.png';
 import finderZen2Icon from './images/finder-zen-2-icon.png';
 import appFlightIcon from './images/app-flight-icon.png';
+import solidsARIcon from './images/solids-ar-icon.webp';
+import finderZenARIcon from './images/finder-zen-ar-icon.png';
 
 function Projects() {
   return (
@@ -29,7 +32,8 @@ function Projects() {
                   <h3><span className="text-fancy">Vince14Genius</span>:Portfolio</h3>
                   <p>This website.</p>
                 </div>
-                <div className="project-icon placeholder-icon" />
+                <img className="project-icon website-icon" src={profileIcon} />
+                {/* <div className="project-icon placeholder-icon" /> */}
                 <a className="project-primary-link project-link-button" href="/">
                   <p>Home</p>
                 </a>
@@ -121,10 +125,10 @@ function Projects() {
             <div className="projects-grid">
               <section className="projects-grid-item">
                 <div className="project-title-description">
-                  <h3>Solids</h3>
+                  <h3>Solids AR</h3>
                   <p>???</p>
                 </div>
-                <div className="project-icon placeholder-icon" />
+                <img className="project-icon ios-app-icon" alt="app-icon" src={solidsARIcon} />
               </section>
               <section className="projects-grid-item">
                 <div className="project-title-description">
@@ -284,7 +288,7 @@ function Projects() {
                   <h3>Finder Zen AR</h3>
                   <p>-</p>
                 </div>
-                <div className="project-icon placeholder-icon" />
+                <img className="project-icon ios-app-icon" alt="app-icon" src={finderZenARIcon} />
                 <a className="project-github-link" href="https://github.com/Vince14Genius/WWDC19-Finder-Zen-AR">
                   <img alt="GitHub" src={githubLogo} />
                 </a>

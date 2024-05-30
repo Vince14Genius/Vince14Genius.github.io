@@ -7,6 +7,8 @@
 
 .placeholder-icon {
   background: linear-gradient(20deg, #205080, #805050);
+  /* background-color: var(--background-color-tertiary); */
+  border: 2px solid #80808040;
   border-radius: 6px;
   opacity: 0.5;
 }
@@ -14,6 +16,11 @@
 .ios-app-icon {
   mask-image: url(images/app-store-mask.svg);
   mask-mode: alpha;
+}
+
+.website-icon {
+  border: 2px solid rgba(64, 176, 255, 0.2);
+  border-radius: 50%;
 }
 
 .projects-grid {
