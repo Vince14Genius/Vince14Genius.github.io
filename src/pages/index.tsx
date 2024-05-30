@@ -62,29 +62,51 @@ function Index() {
           <div className="language-chart">
             <div className="language-chart-header-column language-proficiency-native">Native</div>
             <div className="language-chart-data-column">
-              <span className="language-tag">English</span>
-              <span className="language-tag">中文</span>
+              <span className="language-tag-container">
+                <div className="language-tag">English</div>
+              </span>
+              <span className="language-tag-container">
+                <div className="language-tag">中文</div>
+              </span>
             </div>
             <div className="language-chart-header-column language-proficiency-near-native">Near-Native</div>
             <div className="language-chart-data-column">
-              <span className="language-tag">日本語</span>
+              <span className="language-tag-container">
+                <div className="language-tag">日本語</div>
+              </span>
             </div>
             <div className="language-chart-header-column language-proficiency-fluent">Advanced</div>
             <div className="language-chart-data-column">
             </div>
             <div className="language-chart-header-column language-proficiency-conversational">Conversational</div>
             <div className="language-chart-data-column">
-              <span className="language-tag">Esperanto</span>
-              <span className="language-tag">Español</span>
-              <span className="language-tag">Français</span>
+              <span className="language-tag-container">
+                <div className="language-tag">Esperanto</div>
+              </span>
+              <span className="language-tag-container">
+                <div className="language-tag">Español</div>
+              </span>
+              <span className="language-tag-container">
+                <div className="language-tag">Français</div>
+              </span>
             </div>
             <div className="language-chart-header-column language-proficiency-beginner">Beginner</div>
             <div className="language-proficiency-secondary-tier language-chart-data-column">
-              <span className="language-tag">Lingua Latīna</span>
-              <span className="language-tag">한국어</span>
-              <span className="language-tag">Ελληνικά</span>
-              <span className="language-tag">Türkçe</span>
-              <span className="language-tag">Bahasa Indonesia</span>
+              <span className="language-tag-container">
+                <div className="language-tag">Lingua Latīna</div>
+              </span>
+              <span className="language-tag-container">
+                <div className="language-tag">한국어</div>
+              </span>
+              <span className="language-tag-container">
+                <div className="language-tag">Ελληνικά</div>
+              </span>
+              <span className="language-tag-container">
+                <div className="language-tag">Türkçe</div>
+              </span>
+              <span className="language-tag-container">
+                <div className="language-tag">Bahasa Indonesia</div>
+              </span>
             </div>
           </div>
         </section>

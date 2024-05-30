@@ -228,7 +228,9 @@ th {
 
 .social-media-link,
 .language-tag,
-.projects-grid-item {
+.projects-grid-item,
+.project-primary-link,
+.project-github-link {
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
   -ms-transition: -ms-transform 0.3s;
@@ -324,9 +326,9 @@ section.full-page-height {
 .language-chart {
   column-gap: 0.8rem;
   row-gap: 0.8rem;
-  font-size: 3rem;
   max-width: 100%;
   display: grid;
+  overflow: visible;
   overflow-wrap: break-word;
 }
 
@@ -339,21 +341,27 @@ section.full-page-height {
   grid-column-start: 1;
   grid-column-end: 2;
   overflow-wrap: break-word;
+
+  align-items: center;
+  font-size: 1.8rem;
 }
 
 .language-chart-data-column {
   grid-column-start: 2;
   grid-column-end: 3;
+  font-size: 2.4rem;
+  line-height: 1.7;
+  overflow: visible;
 }
 
 @media (max-width: 799px) {
   .language-chart {
     border-spacing: 0.5rem;
-    font-size: 1.2rem;
   }
 
   .language-chart-header-column {
     padding-right: 0.3rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -382,26 +390,40 @@ section.full-page-height {
   border-color: var(--color-language-proficiency-beginner);
 }
 
-.language-tag {
-  font-size: 2.4rem;
-
+.language-tag-container {
+  display: inline-block;
   margin-right: 0.7rem;
-  padding: 0.2rem 0.7rem;
+  line-height: 1;
+}
+
+.language-tag-container:last-of-type {
+  margin-right: 0;
+}
+
+.language-tag {
+  width: fit-content;
+
+  padding: 0.5rem 0.7rem;
   border-radius: 4px;
 
   background-color: rgba(128, 128, 128, 0.1);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
-  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.1));
 
-  line-height: 1.5;
   overflow-wrap: break-word;
 }
 
 @media (max-width: 799px) {
-  .language-tag {
+  .language-chart-data-column {
     font-size: 1rem;
+  }
+
+  .language-tag-container {
     margin-right: 0.3rem;
+  }
+
+  .language-tag {
     padding: 0.2rem 0.3rem;
   }
 }
@@ -414,10 +436,6 @@ section.full-page-height {
   -moz-transform: scale(1.04);
   -ms-transform: scale(1.04);
   transform: scale(1.04);
-}
-
-.language-tag:last-of-type {
-  margin-right: 0;
 }
 
 .language-proficiency-secondary-tier {

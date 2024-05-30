@@ -7,7 +7,7 @@
 
 .placeholder-icon {
   background: linear-gradient(20deg, #205080, #805050);
-  corner-radius: 
+  corner-radius:
 }
 
 .ios-app-icon {
@@ -45,6 +45,7 @@
   align-items: start; */
 
   display: grid;
+  overflow: visible;
   gap: 0.8rem;
   grid-template-columns: var(--icon-size) auto min-content min-content;
   grid-template-rows: max-content var(--icon-size) min-content min-content;
@@ -52,8 +53,22 @@
 
 .projects-grid-item:hover {
   background-color: rgba(128, 128, 128, 0.15);
-  filter: drop-shadow(0 0 2rem rgba(0, 0, 0, 0.4));
   transform: scale(1.02);
+  filter: drop-shadow(0 0 2rem rgba(0, 0, 0, 0.4));
+}
+
+.project-primary-link:hover,
+.project-github-link:hover {
+  transform-origin: center;
+  transform: scale(1.15);
+  z-index: 1;
+  filter: drop-shadow(0 0 0.8rem rgba(0, 0, 0, 0.8));
+}
+
+.project-primary-link,
+.project-github-link {
+  transform-origin: center;
+  z-index: 1;
 }
 
 .app-store-download-badge img {
